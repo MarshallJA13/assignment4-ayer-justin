@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+header {
+  background: #D50A0A;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 15px;
+  font-family: 'Gil Sans', sans-serif;
+}
+
+nav a:hover {
+  color: #FF7900;
+  border-bottom: 2px solid #FF7900;
+  transition: .2s;
+}
+
+.content {
+  max-width: 750px;
+  background: gray;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 50px;
+}
+
+.bucs-logo {
+  position: relative;
+}
+
+.bucs-logo h1 {
+  position: absolute;
+  bottom: 18px;
+  left: 24px;
+}
