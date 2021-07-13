@@ -166,3 +166,34 @@ span {
   font-weight: bold;
   color: #D50A0A;
 }
+
+.go-bucs p {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 21px;
+  font-family: system-ui;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 1px #D50A0A;
+
+}
+
+.go-bucs {
+    text-align: center;
+    border-top: 3px solid #D50A0A;
+    padding-top: 30px;
+}
+
+.go-bucs img{
+  animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
