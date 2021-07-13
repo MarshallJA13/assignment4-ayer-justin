@@ -67,3 +67,13 @@ h2 {
   padding: 0 10px;
   margin-bottom: 25px;
 }
+
+h3 {
+  padding: 0 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+p {
+  padding: 0 10px;
+}
