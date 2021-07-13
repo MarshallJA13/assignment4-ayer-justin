@@ -185,15 +185,20 @@ span {
 }
 
 .go-bucs img{
-  animation: rotate 5s infinite linear;
+  animation: pulse 1s infinite;
 }
 
-@keyframes rotate {
+@keyframes pulse {
   from {
-    transform: rotate(0deg);
+    transform: scale(1);
+    opacity: 1;
   }
-
+  50% {
+    transform: scale(0.75);
+    opacity: 0.25;
+  }
   to {
-    transform: rotate(360deg);
+    transform: scale(1);
+    opacity: 1;
   }
 }
