@@ -20,9 +20,10 @@ nav ul li {
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0 15px;
   font-family: 'Gil Sans', sans-serif;
+  font-weight: 500;
 }
 
 nav a:hover {
@@ -49,4 +50,20 @@ main {
   position: absolute;
   bottom: 18px;
   left: 24px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.bucs-logo img {
+  width: 100%;
+}
+
+.team-history {
+  padding: 40px;
+}
+
+h2 {
+  border-bottom: 3px solid #D50A0A;
+  padding: 0 10px;
+  margin-bottom: 25px;
 }
