@@ -26,20 +26,21 @@ nav a {
   text-decoration: none;
   font-size: 20px;
   margin: 0 15px;
-  font-family: 'Gil Sans', sans-serif;
+  font-family: system-ui;
   font-weight: 500;
 }
 
 nav a:hover {
   color: #FF7900;
   border-bottom: 2px solid #FF7900;
-  transition: .2s;
+  transition: .4s;
 }
 
 .content {
   max-width: 750px;
   background: white;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 main {
@@ -53,7 +54,7 @@ main {
 .bucs-logo h1 {
   position: absolute;
   bottom: 18px;
-  left: 24px;
+  left: 19px;
   color: white;
   text-shadow: 2px 2px 2px black;
 }
@@ -64,6 +65,13 @@ main {
 
 .team-history {
   padding: 40px;
+  font-family: system-ui;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: system-ui;
+  font-style: italic;
 }
 
 h2 {
@@ -73,12 +81,32 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  font-size: 18px;
+}
+
 p {
   padding: 0 10px;
 }
 
 .top-three {
   padding: 40px;
+  font-family: system-ui;
+}
+
+.doug-williams {
+  position: relative;
+  font-family: system-ui;
+}
+
+.warren-sapp {
+  position: relative;
+  font-family: system-ui;
+}
+
+.tom-brady {
+  position: relative;
+  font-family: system-ui;
 }
 
 .doug-williams img {
@@ -86,6 +114,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border: 1px solid black;
 }
 
 .warren-sapp img {
@@ -93,11 +122,42 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border: 1px solid black;
 }
 
 .tom-brady img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;  
+  width: 50%;
+  border: 1px solid black;
+}
+
+.doug-williams h4 {
+  position: absolute;
+  bottom: 19px;
+  left: 260px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.warren-sapp h4 {
+  position: absolute;
+  bottom: 19px;
+  left: 260px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.tom-brady h4 {
+  position: absolute;
+  bottom: 19px;
+  left: 260px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+span {
+  font-weight: bold;
+  color: #D50A0A;
 }
