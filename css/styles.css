@@ -68,6 +68,11 @@ main {
   font-family: system-ui;
 }
 
+.team-history img {
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
 h1 {
   font-size: 32px;
   font-family: system-ui;
